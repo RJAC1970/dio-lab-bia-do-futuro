@@ -49,7 +49,7 @@ Os dados serão "injetados" em nosso prompt, garantindo que o nosso agente, tenh
 
 ```text
 
-- Dados do Cliente (data/perfil_investidor.json ):
+Dados do Cliente (data/perfil_investidor.json ):
 
 {
   "nome": "João Silva",
@@ -75,7 +75,7 @@ Os dados serão "injetados" em nosso prompt, garantindo que o nosso agente, tenh
   ]
 }
 
-- Transações do Cliente (data/transacoes.csv):
+Transações do Cliente (data/transacoes.csv):
 
 data,descricao,categoria,valor,tipo
 2025-10-01,Salário,receita,5000.00,entrada
@@ -89,7 +89,7 @@ data,descricao,categoria,valor,tipo
 2025-10-20,Academia,saude,99.00,saida
 2025-10-25,Combustível,transporte,250.00,saida
 
-- Histórico de Atendimento (data/historico_atendimento.csv):
+Histórico de Atendimento (data/historico_atendimento.csv):
 
 data,canal,tema,resumo,resolvido
 2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,sim
@@ -98,7 +98,7 @@ data,canal,tema,resumo,resolvido
 2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
 2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
 
-- Produtos Financeiros (data/produtos_financeiros.json):
+Produtos Financeiros (data/produtos_financeiros.json):
 
 [
   {
